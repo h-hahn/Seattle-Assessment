@@ -4,6 +4,7 @@
 This is a private repository that I created for the Seattle Aquarium's Research Technician position technical assessment. The instructions for the asessment are located within in the file named "Research_Technician_technical_interview_assignment.docx". The python script can be found within the scripts folder. All code is annotated thoroughly to demonstrate my thought process throughout each step. 
 
 **Time To Completion**
+
 I began the assessment around 3:00 PM PST 09/21/24 and completed the assignment at 9:00 PM PST. Coding took approximately 4 hours while installing proper libraries such as opencv and troubleshooting took approximately 2 hours.
 
 ## Data 
