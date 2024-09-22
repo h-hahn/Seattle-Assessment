@@ -1,7 +1,7 @@
 # Seattle-Assessment
 
 ## Summary
-This is a private repository that I created for the Seattle Aquarium's Research Technician position technical assessment. The instructions for the asessment are located within in the file named "Research_Technician_technical_interview_assignment.docx". The python script can be found within the scripts folder. All code is annotated thoroughly to demonstrate my thought process throughout each step. 
+This is a repository that I created for the Seattle Aquarium's Research Technician position technical assessment. The instructions for the asessment are located within in the file named "Research_Technician_technical_interview_assignment.docx". The python script can be found within the scripts folder. All code is annotated thoroughly to demonstrate my thought process throughout each step. 
 
 **Time To Completion**
 
