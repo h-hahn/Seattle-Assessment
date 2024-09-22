@@ -75,11 +75,11 @@ success, image1 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder with correct timestamp
 if success:
-    print(f"Frame {frame1} read successfully.")
+    print(f"Frame1 read successfully.")
     cv2.imwrite(f"outputs/14-12-32.jpg", image1)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame1}.")
+    print(f"Failed to read frame1.")
 
 # -------- 2 meters - 14:12:44 (21 seconds after beginning of video) --------
 # Set the video capture to the second frame value (21 seconds into the video)
@@ -90,11 +90,11 @@ success, image2 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder
 if success:
-    print(f"Frame {frame2} read successfully.")
+    print(f"Frame2 read successfully.")
     cv2.imwrite(f"outputs/14-12-44.jpg", image2)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame2}.")
+    print(f"Failed to read frame2.")
 
 # -------- 3 meters - 14:12:53 (30 seconds after beginning of video) --------
 # Set the video capture to the third frame value (30 seconds into the video)
@@ -105,11 +105,11 @@ success, image3 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder
 if success:
-    print(f"Frame {frame3} read successfully.")
+    print(f"Frame3 read successfully.")
     cv2.imwrite(f"outputs/14-12-53.jpg", image3)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame3}.")
+    print(f"Failed to read frame3.")
 
 # -------- 4 meters - 14:13:03 (40 seconds after beginning of video) --------
 # Set the video capture to the fourth frame value (40 seconds into the video)
@@ -120,11 +120,11 @@ success, image4 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder
 if success:
-    print(f"Frame {frame4} read successfully.")
+    print(f"Frame4 read successfully.")
     cv2.imwrite(f"outputs/14-13-03.jpg", image4)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame4}.")
+    print(f"Failed to read frame4.")
 
 # -------- 5 meters - 14:13:12 (49 seconds after beginning of video) --------
 # Set the video capture to the fifth frame value (49 seconds into the video)
@@ -135,11 +135,11 @@ success, image5 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder
 if success:
-    print(f"Frame {frame5} read successfully.")
+    print(f"Frame5 read successfully.")
     cv2.imwrite(f"outputs/14-13-12.jpg", image5)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame5}.")
+    print(f"Failed to read frame5.")
 
 # -------- 6 meters - 14:13:22 (59 seconds after beginning of video) --------
 # Set the video capture to the sixth frame value (59 seconds into the video)
@@ -150,10 +150,10 @@ success, image6 = rov_vid.read()
 
 # if the frame is read successfully, save to outputs folder
 if success:
-    print(f"Frame {frame6} read successfully.")
+    print(f"Frame6 read successfully.")
     cv2.imwrite(f"outputs/14-13-22.jpg", image6)
 # if unsuccessful print fail message to see which image failed
 else:
-    print(f"Failed to read frame {frame6}.")
+    print(f"Failed to read frame6.")
 
 ### ---All images were downloaded successfully to the outputs folder--- ###
