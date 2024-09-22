@@ -77,7 +77,7 @@ success, image1 = rov_vid.read()
 if success:
     print(f"Frame {frame1} read successfully.")
     cv2.imwrite(f"outputs/14-12-32.jpg", image1)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame1}.")
 
@@ -92,7 +92,7 @@ success, image2 = rov_vid.read()
 if success:
     print(f"Frame {frame2} read successfully.")
     cv2.imwrite(f"outputs/14-12-44.jpg", image2)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame2}.")
 
@@ -107,7 +107,7 @@ success, image3 = rov_vid.read()
 if success:
     print(f"Frame {frame3} read successfully.")
     cv2.imwrite(f"outputs/14-12-53.jpg", image3)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame3}.")
 
@@ -122,7 +122,7 @@ success, image4 = rov_vid.read()
 if success:
     print(f"Frame {frame4} read successfully.")
     cv2.imwrite(f"outputs/14-13-03.jpg", image4)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame4}.")
 
@@ -137,7 +137,7 @@ success, image5 = rov_vid.read()
 if success:
     print(f"Frame {frame5} read successfully.")
     cv2.imwrite(f"outputs/14-13-12.jpg", image5)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame5}.")
 
@@ -152,7 +152,7 @@ success, image6 = rov_vid.read()
 if success:
     print(f"Frame {frame6} read successfully.")
     cv2.imwrite(f"outputs/14-13-22.jpg", image6)
-# if unsuccessful print fail message
+# if unsuccessful print fail message to see which image failed
 else:
     print(f"Failed to read frame {frame6}.")
 
